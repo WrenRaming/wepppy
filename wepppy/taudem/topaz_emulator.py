@@ -446,7 +446,7 @@ class TauDEMTopazEmulator(TauDEMRunner):
             # identify cooresponding channel
             chn_id = str(sub_id)[:-1] + '4'
 
-            # identify indicies of sub_id
+            # identify indices of sub_id
             raw_indx, raw_indy = np.where(subwta == sub_id)
             area = float(len(raw_indx)) * cellsize2
 
@@ -487,25 +487,6 @@ class TauDEMTopazEmulator(TauDEMRunner):
                     length = clip_hillslope_length
 
                 width = area / length
-
-#                if str(sub_id).endswith('1'):
-#                    # determine representative length and width
-#                    # Cochrane dissertation eq 3.4
-#
-#                    #print('sub_id', sub_id)
-#                    #pprint('fp_lengths')
-#                    #pprint(fp_lengths)
-#                    #pprint('fp_surface_areas')
-#                    #pprint(fp_surface_areas)
-#                    length = float(np.sum(fp_lengths * fp_surface_areas) / np.sum(fp_surface_areas))
-#                    width = area / length
-#
-#                    #print('area', area)
-#                    #print('width', width)
-#                    #print('length', length, '\n\n\n')
-#                else:
-#                    width = chns_d[chn_id].length
-#                    length = area / width
 
                 # determine representative slope profile
                 w_slopes, distance_p = weighted_slope_average(fp_surface_areas, fp_slopes, fp_lengths)
