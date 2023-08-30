@@ -7,5 +7,6 @@
     <mapping directory="$PROJECT_DIR$/wepppy/nodb/mods/locations/seattle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wepppy/weppcloud/_migrations" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wepppy/weppcloud/wepp1_config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wepppy/weppcloud/wepp2_config" vcs="Git" />
   </component>
 </project>
