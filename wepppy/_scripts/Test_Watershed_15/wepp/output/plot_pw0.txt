@@ -1,11 +1,3 @@
- Dist. Downslope Elevation Soil Loss
-
-   (meters)   (meters)  (kg/m**2)
-
-
-
-*******************************************************
-*                                                     *
-* WATERSHED PROFILE OUTPUT NOT AVAILABLE AT THIS TIME *
-*                                                     *
-*******************************************************
+version https://git-lfs.github.com/spec/v1
+oid sha256:e50a8150cdf9b3282485decab48cb634def7b314baed951050e6d8598059f4b7
+size 355
